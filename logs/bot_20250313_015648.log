@@ -1,0 +1,38 @@
+2025-03-13 01:56:50,320:INFO:Loaded 1 rows from excel
+2025-03-13 01:56:50,320:INFO:Processing row 1
+2025-03-13 01:57:08,709:INFO:Progress: 0% - Section: Initial Navigation Page loaded
+2025-03-13 01:57:08,709:INFO:Starting new survey
+2025-03-13 01:57:24,981:INFO:Progress: 0% - Section: Initial Navigation Starting survey
+2025-03-13 01:57:41,976:INFO:Progress: 0% - Section: Initial Navigation Clicked: NextButton
+2025-03-13 01:57:58,608:INFO:Progress: 0% - Section: Initial Navigation Page loaded
+2025-03-13 01:58:15,178:INFO:Progress: 0% - Section: Initial Navigation Page loaded
+2025-03-13 01:58:32,842:INFO:Progress: 0% - Section: Initial Navigation Page loaded
+2025-03-13 01:58:50,432:INFO:Progress: 0% - Section: Initial Navigation Page loaded
+2025-03-13 01:58:52,430:INFO:Progress: 0% - Section: Initial Navigation Clicked: NextButton
+2025-03-13 01:58:52,781:INFO:Progress: 0% - Section: Initial Navigation Page loaded
+2025-03-13 01:58:57,558:INFO:Progress: 0% - Section: Initial Navigation Clicked: //*[@id='FNSR000252']/div/div/div[4]/label
+2025-03-13 01:58:57,903:INFO:Progress: 4% - Section: Initial Navigation Clicked: NextButton
+2025-03-13 01:58:58,248:INFO:Progress: 4% - Section: Initial Navigation Page loaded
+2025-03-13 01:59:00,134:INFO:Progress: 8% - Section: Initial Navigation Clicked: NextButton
+2025-03-13 01:59:00,479:INFO:Progress: 8% - Section: Initial Navigation Page loaded
+2025-03-13 01:59:03,855:INFO:Progress: 12% - Section: Visit Time Page loaded
+2025-03-13 01:59:05,340:INFO:Progress: 20% - Section: Visit Details Clicked: tr[id^='FNSR'] td.Opt1.inputtyperbloption
+2025-03-13 01:59:05,718:INFO:Progress: 24% - Section: Visit Details Clicked: NextButton
+2025-03-13 01:59:05,919:INFO:Progress: 24% - Section: Visit Details Clicked: tr[id^='FNSR'] td.Opt5.inputtyperbloption
+2025-03-13 01:59:06,258:INFO:Progress: 24% - Section: Visit Details Clicked: NextButton
+2025-03-13 01:59:32,103:INFO:Progress: 32% - Section: Previous Visits Clicked: NextButton
+2025-03-13 01:59:37,033:INFO:Progress: 32% - Section: Previous Visits Clicked: NextButton
+2025-03-13 01:59:41,878:INFO:Progress: 36% - Section: Previous Visits Clicked: NextButton
+2025-03-13 01:59:42,224:INFO:Progress: 36% - Section: Previous Visits Page loaded
+2025-03-13 01:59:55,774:INFO:Progress: 36% - Section: Previous Visits Page loaded
+2025-03-13 02:00:09,315:INFO:Progress: 36% - Section: Previous Visits Page loaded
+2025-03-13 02:00:23,273:INFO:Progress: 36% - Section: Previous Visits Page loaded
+2025-03-13 02:00:36,797:INFO:Progress: 36% - Section: Previous Visits Page loaded
+2025-03-13 02:00:50,325:INFO:Progress: 36% - Section: Previous Visits Page loaded
+2025-03-13 02:01:04,468:INFO:Progress: 40% - Section: Overall Satisfaction Page loaded
+2025-03-13 02:01:17,994:INFO:Progress: 40% - Section: Overall Satisfaction Page loaded
+2025-03-13 02:01:32,212:INFO:Progress: 60% - Section: Service Satisfaction Page loaded
+2025-03-13 02:01:34,060:INFO:Progress: 68% - Section: Service Satisfaction Clicked: NextButton
+2025-03-13 02:01:48,064:INFO:Progress: 85% - Section: Return and Recommendations Clicked: NextButton
+2025-03-13 02:01:50,168:WARNING:Attempt 1 failed: "Attempt to overwrite 'exc_info' in LogRecord"
+2025-03-13 02:01:50,168:ERROR:Failed to process row 1 after 1 attempts

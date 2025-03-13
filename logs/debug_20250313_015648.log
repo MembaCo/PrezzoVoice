@@ -1,0 +1,345 @@
+2025-03-13 01:56:50,320:INFO:[Botv1:load_data:132] - Loaded 1 rows from excel
+2025-03-13 01:56:50,320:INFO:[Botv1:run:1137] - Processing row 1
+2025-03-13 01:57:08,709:INFO:[Botv1:log_progress:239] - Progress: 0% - Section: Initial Navigation Page loaded
+2025-03-13 01:57:08,709:INFO:[Botv1:process_survey:846] - Starting new survey
+2025-03-13 01:57:24,981:INFO:[Botv1:log_progress:239] - Progress: 0% - Section: Initial Navigation Starting survey
+2025-03-13 01:57:41,976:INFO:[Botv1:log_progress:239] - Progress: 0% - Section: Initial Navigation Clicked: NextButton
+2025-03-13 01:57:58,608:INFO:[Botv1:log_progress:239] - Progress: 0% - Section: Initial Navigation Page loaded
+2025-03-13 01:58:15,178:INFO:[Botv1:log_progress:239] - Progress: 0% - Section: Initial Navigation Page loaded
+2025-03-13 01:58:16,254:DEBUG:[Botv1:smart_send_keys:345] - Successfully sent keys to InputCouponNum: 5M8187110423
+2025-03-13 01:58:32,842:INFO:[Botv1:log_progress:239] - Progress: 0% - Section: Initial Navigation Page loaded
+2025-03-13 01:58:33,896:DEBUG:[Botv1:smart_send_keys:345] - Successfully sent keys to AmountSpent1: 88
+2025-03-13 01:58:50,432:INFO:[Botv1:log_progress:239] - Progress: 0% - Section: Initial Navigation Page loaded
+2025-03-13 01:58:51,516:DEBUG:[Botv1:smart_send_keys:345] - Successfully sent keys to AmountSpent2: 0
+2025-03-13 01:58:52,430:INFO:[Botv1:log_progress:239] - Progress: 0% - Section: Initial Navigation Clicked: NextButton
+2025-03-13 01:58:52,781:INFO:[Botv1:log_progress:239] - Progress: 0% - Section: Initial Navigation Page loaded
+2025-03-13 01:58:52,781:DEBUG:[Botv1:process_survey:861] - Processing Visit Time section
+2025-03-13 01:58:57,558:INFO:[Botv1:log_progress:239] - Progress: 0% - Section: Initial Navigation Clicked: //*[@id='FNSR000252']/div/div/div[4]/label
+2025-03-13 01:58:57,558:DEBUG:[Botv1:process_survey:876] - Successfully clicked time selector: //*[@id='FNSR000252']/div/div/div[4]/label
+2025-03-13 01:58:57,903:INFO:[Botv1:log_progress:239] - Progress: 4% - Section: Initial Navigation Clicked: NextButton
+2025-03-13 01:58:58,248:INFO:[Botv1:log_progress:239] - Progress: 4% - Section: Initial Navigation Page loaded
+2025-03-13 01:58:58,248:DEBUG:[Botv1:process_survey:889] - Processing Did you visit section
+2025-03-13 01:59:00,134:INFO:[Botv1:log_progress:239] - Progress: 8% - Section: Initial Navigation Clicked: NextButton
+2025-03-13 01:59:00,134:DEBUG:[Botv1:process_survey:896] - Processing Dine in/Takeaway section
+2025-03-13 01:59:00,479:INFO:[Botv1:log_progress:239] - Progress: 8% - Section: Initial Navigation Page loaded
+2025-03-13 01:59:02,064:DEBUG:[Botv1:click_dine_option_v3:589] - Successfully selected R000004.1
+2025-03-13 01:59:02,064:DEBUG:[Botv1:process_survey:906] - Successfully clicked dine option
+2025-03-13 01:59:03,855:INFO:[Botv1:log_progress:239] - Progress: 12% - Section: Visit Time Page loaded
+2025-03-13 01:59:03,855:DEBUG:[Botv1:process_survey:924] - Processing Previous visits section
+2025-03-13 01:59:04,091:DEBUG:[Botv1:click_yes_no_option:627] - Successfully selected Opt2 for question 000159
+2025-03-13 01:59:04,504:DEBUG:[Botv1:process_survey:940] - Processing Overall satisfaction section
+2025-03-13 01:59:04,743:DEBUG:[Botv1:click_satisfaction_rating_v2:710] - Successfully selected rating 5
+2025-03-13 01:59:05,143:DEBUG:[Botv1:process_survey:959] - Processing Satisfaction confirmation section
+2025-03-13 01:59:05,340:INFO:[Botv1:log_progress:239] - Progress: 20% - Section: Visit Details Clicked: tr[id^='FNSR'] td.Opt1.inputtyperbloption
+2025-03-13 01:59:05,718:INFO:[Botv1:log_progress:239] - Progress: 24% - Section: Visit Details Clicked: NextButton
+2025-03-13 01:59:05,718:DEBUG:[Botv1:process_survey:965] - Processing Restaurant satisfaction section
+2025-03-13 01:59:05,919:INFO:[Botv1:log_progress:239] - Progress: 24% - Section: Visit Details Clicked: tr[id^='FNSR'] td.Opt5.inputtyperbloption
+2025-03-13 01:59:06,258:INFO:[Botv1:log_progress:239] - Progress: 24% - Section: Visit Details Clicked: NextButton
+2025-03-13 01:59:06,259:DEBUG:[Botv1:process_survey:971] - Processing Food satisfaction section
+2025-03-13 01:59:17,624:DEBUG:[Botv1:select_satisfaction_table_ratings:780] - Successfully set 5 ratings
+2025-03-13 01:59:17,876:DEBUG:[Botv1:process_survey:990] - Processing Service satisfaction section
+2025-03-13 01:59:20,118:DEBUG:[Botv1:select_satisfaction_table_ratings:776] - Failed to set rating for question 000028: Message: no such element: Unable to locate element: {"method":"css selector","selector":"input[id$='.9']"}
+  (Session info: chrome=134.0.6998.89); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C288FE45+26629]
+	(No symbol) [0x00007FF7C27F6010]
+	(No symbol) [0x00007FF7C268931A]
+	(No symbol) [0x00007FF7C26DF8E7]
+	(No symbol) [0x00007FF7C26DFB1C]
+	(No symbol) [0x00007FF7C26D228C]
+	(No symbol) [0x00007FF7C2707AEF]
+	(No symbol) [0x00007FF7C26D2156]
+	(No symbol) [0x00007FF7C2707CC0]
+	(No symbol) [0x00007FF7C2730169]
+	(No symbol) [0x00007FF7C2707883]
+	(No symbol) [0x00007FF7C26D0550]
+	(No symbol) [0x00007FF7C26D1803]
+	GetHandleVerifier [0x00007FF7C2BE72BD+3529853]
+	GetHandleVerifier [0x00007FF7C2BFDA22+3621858]
+	GetHandleVerifier [0x00007FF7C2BF24D3+3575443]
+	GetHandleVerifier [0x00007FF7C295B77A+860474]
+	(No symbol) [0x00007FF7C280088F]
+	(No symbol) [0x00007FF7C27FCBC4]
+	(No symbol) [0x00007FF7C27FCD66]
+	(No symbol) [0x00007FF7C27EC2C9]
+	BaseThreadInitThunk [0x00007FFC07A2E8D7+23]
+	RtlUserThreadStart [0x00007FFC09BBBF6C+44]
+
+2025-03-13 01:59:22,185:DEBUG:[Botv1:select_satisfaction_table_ratings:776] - Failed to set rating for question 000018: Message: no such element: Unable to locate element: {"method":"css selector","selector":"input[id$='.9']"}
+  (Session info: chrome=134.0.6998.89); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C288FE45+26629]
+	(No symbol) [0x00007FF7C27F6010]
+	(No symbol) [0x00007FF7C268931A]
+	(No symbol) [0x00007FF7C26DF8E7]
+	(No symbol) [0x00007FF7C26DFB1C]
+	(No symbol) [0x00007FF7C26D228C]
+	(No symbol) [0x00007FF7C2707AEF]
+	(No symbol) [0x00007FF7C26D2156]
+	(No symbol) [0x00007FF7C2707CC0]
+	(No symbol) [0x00007FF7C2730169]
+	(No symbol) [0x00007FF7C2707883]
+	(No symbol) [0x00007FF7C26D0550]
+	(No symbol) [0x00007FF7C26D1803]
+	GetHandleVerifier [0x00007FF7C2BE72BD+3529853]
+	GetHandleVerifier [0x00007FF7C2BFDA22+3621858]
+	GetHandleVerifier [0x00007FF7C2BF24D3+3575443]
+	GetHandleVerifier [0x00007FF7C295B77A+860474]
+	(No symbol) [0x00007FF7C280088F]
+	(No symbol) [0x00007FF7C27FCBC4]
+	(No symbol) [0x00007FF7C27FCD66]
+	(No symbol) [0x00007FF7C27EC2C9]
+	BaseThreadInitThunk [0x00007FFC07A2E8D7+23]
+	RtlUserThreadStart [0x00007FFC09BBBF6C+44]
+
+2025-03-13 01:59:24,238:DEBUG:[Botv1:select_satisfaction_table_ratings:776] - Failed to set rating for question 000021: Message: no such element: Unable to locate element: {"method":"css selector","selector":"input[id$='.9']"}
+  (Session info: chrome=134.0.6998.89); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C288FE45+26629]
+	(No symbol) [0x00007FF7C27F6010]
+	(No symbol) [0x00007FF7C268931A]
+	(No symbol) [0x00007FF7C26DF8E7]
+	(No symbol) [0x00007FF7C26DFB1C]
+	(No symbol) [0x00007FF7C26D228C]
+	(No symbol) [0x00007FF7C2707AEF]
+	(No symbol) [0x00007FF7C26D2156]
+	(No symbol) [0x00007FF7C2707CC0]
+	(No symbol) [0x00007FF7C2730169]
+	(No symbol) [0x00007FF7C2707883]
+	(No symbol) [0x00007FF7C26D0550]
+	(No symbol) [0x00007FF7C26D1803]
+	GetHandleVerifier [0x00007FF7C2BE72BD+3529853]
+	GetHandleVerifier [0x00007FF7C2BFDA22+3621858]
+	GetHandleVerifier [0x00007FF7C2BF24D3+3575443]
+	GetHandleVerifier [0x00007FF7C295B77A+860474]
+	(No symbol) [0x00007FF7C280088F]
+	(No symbol) [0x00007FF7C27FCBC4]
+	(No symbol) [0x00007FF7C27FCD66]
+	(No symbol) [0x00007FF7C27EC2C9]
+	BaseThreadInitThunk [0x00007FFC07A2E8D7+23]
+	RtlUserThreadStart [0x00007FFC09BBBF6C+44]
+
+2025-03-13 01:59:26,744:DEBUG:[Botv1:select_satisfaction_table_ratings:776] - Failed to set rating for question 000164: Message: no such element: Unable to locate element: {"method":"css selector","selector":"input[id$='.9']"}
+  (Session info: chrome=134.0.6998.89); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C288FE45+26629]
+	(No symbol) [0x00007FF7C27F6010]
+	(No symbol) [0x00007FF7C268931A]
+	(No symbol) [0x00007FF7C26DF8E7]
+	(No symbol) [0x00007FF7C26DFB1C]
+	(No symbol) [0x00007FF7C26D228C]
+	(No symbol) [0x00007FF7C2707AEF]
+	(No symbol) [0x00007FF7C26D2156]
+	(No symbol) [0x00007FF7C2707CC0]
+	(No symbol) [0x00007FF7C2730169]
+	(No symbol) [0x00007FF7C2707883]
+	(No symbol) [0x00007FF7C26D0550]
+	(No symbol) [0x00007FF7C26D1803]
+	GetHandleVerifier [0x00007FF7C2BE72BD+3529853]
+	GetHandleVerifier [0x00007FF7C2BFDA22+3621858]
+	GetHandleVerifier [0x00007FF7C2BF24D3+3575443]
+	GetHandleVerifier [0x00007FF7C295B77A+860474]
+	(No symbol) [0x00007FF7C280088F]
+	(No symbol) [0x00007FF7C27FCBC4]
+	(No symbol) [0x00007FF7C27FCD66]
+	(No symbol) [0x00007FF7C27EC2C9]
+	BaseThreadInitThunk [0x00007FFC07A2E8D7+23]
+	RtlUserThreadStart [0x00007FFC09BBBF6C+44]
+
+2025-03-13 01:59:26,744:DEBUG:[Botv1:select_satisfaction_table_ratings:780] - Successfully set 2 ratings
+2025-03-13 01:59:27,143:DEBUG:[Botv1:process_survey:1009] - Processing Problem section
+2025-03-13 01:59:32,103:INFO:[Botv1:log_progress:239] - Progress: 32% - Section: Previous Visits Clicked: NextButton
+2025-03-13 01:59:32,103:DEBUG:[Botv1:process_survey:1015] - Processing Return likelihood section
+2025-03-13 01:59:37,033:INFO:[Botv1:log_progress:239] - Progress: 32% - Section: Previous Visits Clicked: NextButton
+2025-03-13 01:59:37,033:DEBUG:[Botv1:process_survey:1021] - Processing Recommendation section
+2025-03-13 01:59:41,878:INFO:[Botv1:log_progress:239] - Progress: 36% - Section: Previous Visits Clicked: NextButton
+2025-03-13 01:59:41,878:DEBUG:[Botv1:process_survey:1027] - Processing Comments section
+2025-03-13 01:59:42,224:INFO:[Botv1:log_progress:239] - Progress: 36% - Section: Previous Visits Page loaded
+2025-03-13 01:59:54,429:DEBUG:[Botv1:smart_send_keys:353] - Attempt 1 failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C288FE45+26629]
+	(No symbol) [0x00007FF7C27F6010]
+	(No symbol) [0x00007FF7C268931A]
+	(No symbol) [0x00007FF7C26DF8E7]
+	(No symbol) [0x00007FF7C26DFB1C]
+	(No symbol) [0x00007FF7C27334A7]
+	(No symbol) [0x00007FF7C2707AEF]
+	(No symbol) [0x00007FF7C2730169]
+	(No symbol) [0x00007FF7C2707883]
+	(No symbol) [0x00007FF7C26D0550]
+	(No symbol) [0x00007FF7C26D1803]
+	GetHandleVerifier [0x00007FF7C2BE72BD+3529853]
+	GetHandleVerifier [0x00007FF7C2BFDA22+3621858]
+	GetHandleVerifier [0x00007FF7C2BF24D3+3575443]
+	GetHandleVerifier [0x00007FF7C295B77A+860474]
+	(No symbol) [0x00007FF7C280088F]
+	(No symbol) [0x00007FF7C27FCBC4]
+	(No symbol) [0x00007FF7C27FCD66]
+	(No symbol) [0x00007FF7C27EC2C9]
+	BaseThreadInitThunk [0x00007FFC07A2E8D7+23]
+	RtlUserThreadStart [0x00007FFC09BBBF6C+44]
+
+2025-03-13 01:59:55,774:INFO:[Botv1:log_progress:239] - Progress: 36% - Section: Previous Visits Page loaded
+2025-03-13 02:00:07,969:DEBUG:[Botv1:smart_send_keys:353] - Attempt 2 failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C288FE45+26629]
+	(No symbol) [0x00007FF7C27F6010]
+	(No symbol) [0x00007FF7C268931A]
+	(No symbol) [0x00007FF7C26DF8E7]
+	(No symbol) [0x00007FF7C26DFB1C]
+	(No symbol) [0x00007FF7C27334A7]
+	(No symbol) [0x00007FF7C2707AEF]
+	(No symbol) [0x00007FF7C2730169]
+	(No symbol) [0x00007FF7C2707883]
+	(No symbol) [0x00007FF7C26D0550]
+	(No symbol) [0x00007FF7C26D1803]
+	GetHandleVerifier [0x00007FF7C2BE72BD+3529853]
+	GetHandleVerifier [0x00007FF7C2BFDA22+3621858]
+	GetHandleVerifier [0x00007FF7C2BF24D3+3575443]
+	GetHandleVerifier [0x00007FF7C295B77A+860474]
+	(No symbol) [0x00007FF7C280088F]
+	(No symbol) [0x00007FF7C27FCBC4]
+	(No symbol) [0x00007FF7C27FCD66]
+	(No symbol) [0x00007FF7C27EC2C9]
+	BaseThreadInitThunk [0x00007FFC07A2E8D7+23]
+	RtlUserThreadStart [0x00007FFC09BBBF6C+44]
+
+2025-03-13 02:00:09,315:INFO:[Botv1:log_progress:239] - Progress: 36% - Section: Previous Visits Page loaded
+2025-03-13 02:00:21,427:DEBUG:[Botv1:smart_send_keys:353] - Attempt 3 failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C288FE45+26629]
+	(No symbol) [0x00007FF7C27F6010]
+	(No symbol) [0x00007FF7C268931A]
+	(No symbol) [0x00007FF7C26DF8E7]
+	(No symbol) [0x00007FF7C26DFB1C]
+	(No symbol) [0x00007FF7C27334A7]
+	(No symbol) [0x00007FF7C2707AEF]
+	(No symbol) [0x00007FF7C2730169]
+	(No symbol) [0x00007FF7C2707883]
+	(No symbol) [0x00007FF7C26D0550]
+	(No symbol) [0x00007FF7C26D1803]
+	GetHandleVerifier [0x00007FF7C2BE72BD+3529853]
+	GetHandleVerifier [0x00007FF7C2BFDA22+3621858]
+	GetHandleVerifier [0x00007FF7C2BF24D3+3575443]
+	GetHandleVerifier [0x00007FF7C295B77A+860474]
+	(No symbol) [0x00007FF7C280088F]
+	(No symbol) [0x00007FF7C27FCBC4]
+	(No symbol) [0x00007FF7C27FCD66]
+	(No symbol) [0x00007FF7C27EC2C9]
+	BaseThreadInitThunk [0x00007FFC07A2E8D7+23]
+	RtlUserThreadStart [0x00007FFC09BBBF6C+44]
+
+2025-03-13 02:00:22,427:DEBUG:[Botv1:process_survey:1038] - Comments attempt 1 failed: "Attempt to overwrite 'exc_info' in LogRecord"
+2025-03-13 02:00:23,273:INFO:[Botv1:log_progress:239] - Progress: 36% - Section: Previous Visits Page loaded
+2025-03-13 02:00:35,448:DEBUG:[Botv1:smart_send_keys:353] - Attempt 1 failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C288FE45+26629]
+	(No symbol) [0x00007FF7C27F6010]
+	(No symbol) [0x00007FF7C268931A]
+	(No symbol) [0x00007FF7C26DF8E7]
+	(No symbol) [0x00007FF7C26DFB1C]
+	(No symbol) [0x00007FF7C27334A7]
+	(No symbol) [0x00007FF7C2707AEF]
+	(No symbol) [0x00007FF7C2730169]
+	(No symbol) [0x00007FF7C2707883]
+	(No symbol) [0x00007FF7C26D0550]
+	(No symbol) [0x00007FF7C26D1803]
+	GetHandleVerifier [0x00007FF7C2BE72BD+3529853]
+	GetHandleVerifier [0x00007FF7C2BFDA22+3621858]
+	GetHandleVerifier [0x00007FF7C2BF24D3+3575443]
+	GetHandleVerifier [0x00007FF7C295B77A+860474]
+	(No symbol) [0x00007FF7C280088F]
+	(No symbol) [0x00007FF7C27FCBC4]
+	(No symbol) [0x00007FF7C27FCD66]
+	(No symbol) [0x00007FF7C27EC2C9]
+	BaseThreadInitThunk [0x00007FFC07A2E8D7+23]
+	RtlUserThreadStart [0x00007FFC09BBBF6C+44]
+
+2025-03-13 02:00:36,797:INFO:[Botv1:log_progress:239] - Progress: 36% - Section: Previous Visits Page loaded
+2025-03-13 02:00:48,979:DEBUG:[Botv1:smart_send_keys:353] - Attempt 2 failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C288FE45+26629]
+	(No symbol) [0x00007FF7C27F6010]
+	(No symbol) [0x00007FF7C268931A]
+	(No symbol) [0x00007FF7C26DF8E7]
+	(No symbol) [0x00007FF7C26DFB1C]
+	(No symbol) [0x00007FF7C27334A7]
+	(No symbol) [0x00007FF7C2707AEF]
+	(No symbol) [0x00007FF7C2730169]
+	(No symbol) [0x00007FF7C2707883]
+	(No symbol) [0x00007FF7C26D0550]
+	(No symbol) [0x00007FF7C26D1803]
+	GetHandleVerifier [0x00007FF7C2BE72BD+3529853]
+	GetHandleVerifier [0x00007FF7C2BFDA22+3621858]
+	GetHandleVerifier [0x00007FF7C2BF24D3+3575443]
+	GetHandleVerifier [0x00007FF7C295B77A+860474]
+	(No symbol) [0x00007FF7C280088F]
+	(No symbol) [0x00007FF7C27FCBC4]
+	(No symbol) [0x00007FF7C27FCD66]
+	(No symbol) [0x00007FF7C27EC2C9]
+	BaseThreadInitThunk [0x00007FFC07A2E8D7+23]
+	RtlUserThreadStart [0x00007FFC09BBBF6C+44]
+
+2025-03-13 02:00:50,325:INFO:[Botv1:log_progress:239] - Progress: 36% - Section: Previous Visits Page loaded
+2025-03-13 02:01:02,617:DEBUG:[Botv1:smart_send_keys:353] - Attempt 3 failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C288FE45+26629]
+	(No symbol) [0x00007FF7C27F6010]
+	(No symbol) [0x00007FF7C268931A]
+	(No symbol) [0x00007FF7C26DF8E7]
+	(No symbol) [0x00007FF7C26DFB1C]
+	(No symbol) [0x00007FF7C27334A7]
+	(No symbol) [0x00007FF7C2707AEF]
+	(No symbol) [0x00007FF7C2730169]
+	(No symbol) [0x00007FF7C2707883]
+	(No symbol) [0x00007FF7C26D0550]
+	(No symbol) [0x00007FF7C26D1803]
+	GetHandleVerifier [0x00007FF7C2BE72BD+3529853]
+	GetHandleVerifier [0x00007FF7C2BFDA22+3621858]
+	GetHandleVerifier [0x00007FF7C2BF24D3+3575443]
+	GetHandleVerifier [0x00007FF7C295B77A+860474]
+	(No symbol) [0x00007FF7C280088F]
+	(No symbol) [0x00007FF7C27FCBC4]
+	(No symbol) [0x00007FF7C27FCD66]
+	(No symbol) [0x00007FF7C27EC2C9]
+	BaseThreadInitThunk [0x00007FFC07A2E8D7+23]
+	RtlUserThreadStart [0x00007FFC09BBBF6C+44]
+
+2025-03-13 02:01:03,618:DEBUG:[Botv1:process_survey:1038] - Comments attempt 2 failed: "Attempt to overwrite 'exc_info' in LogRecord"
+2025-03-13 02:01:04,468:INFO:[Botv1:log_progress:239] - Progress: 40% - Section: Overall Satisfaction Page loaded
+2025-03-13 02:01:16,649:DEBUG:[Botv1:smart_send_keys:353] - Attempt 1 failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C288FE45+26629]
+	(No symbol) [0x00007FF7C27F6010]
+	(No symbol) [0x00007FF7C268931A]
+	(No symbol) [0x00007FF7C26DF8E7]
+	(No symbol) [0x00007FF7C26DFB1C]
+	(No symbol) [0x00007FF7C27334A7]
+	(No symbol) [0x00007FF7C2707AEF]
+	(No symbol) [0x00007FF7C2730169]
+	(No symbol) [0x00007FF7C2707883]
+	(No symbol) [0x00007FF7C26D0550]
+	(No symbol) [0x00007FF7C26D1803]
+	GetHandleVerifier [0x00007FF7C2BE72BD+3529853]
+	GetHandleVerifier [0x00007FF7C2BFDA22+3621858]
+	GetHandleVerifier [0x00007FF7C2BF24D3+3575443]
+	GetHandleVerifier [0x00007FF7C295B77A+860474]
+	(No symbol) [0x00007FF7C280088F]
+	(No symbol) [0x00007FF7C27FCBC4]
+	(No symbol) [0x00007FF7C27FCD66]
+	(No symbol) [0x00007FF7C27EC2C9]
+	BaseThreadInitThunk [0x00007FFC07A2E8D7+23]
+	RtlUserThreadStart [0x00007FFC09BBBF6C+44]
+
+2025-03-13 02:01:17,994:INFO:[Botv1:log_progress:239] - Progress: 40% - Section: Overall Satisfaction Page loaded
+2025-03-13 02:01:31,438:DEBUG:[Botv1:smart_send_keys:345] - Successfully sent keys to S000247: Last night, we chose this restaurant to experience the flavors of Italian cuisine, and we definitely weren't disappointed! The pizza and lasagna were absolutely perfect in terms of freshness and taste. Additionally, our waiter Pavel's warm and attentive service made our evening even more special. Thank you for the delicious food and the wonderful atmosphere—we will definitely be back!
+2025-03-13 02:01:31,865:DEBUG:[Botv1:process_survey:1046] - Processing Member details section
+2025-03-13 02:01:32,212:INFO:[Botv1:log_progress:239] - Progress: 60% - Section: Service Satisfaction Page loaded
+2025-03-13 02:01:33,273:DEBUG:[Botv1:smart_send_keys:345] - Successfully sent keys to S000152: Thanks Pavel
+2025-03-13 02:01:33,708:DEBUG:[Botv1:process_survey:1065] - Processing Dietary information section
+2025-03-13 02:01:34,060:INFO:[Botv1:log_progress:239] - Progress: 68% - Section: Service Satisfaction Clicked: NextButton
+2025-03-13 02:01:34,060:DEBUG:[Botv1:process_survey:1071] - Processing Additional information section
+2025-03-13 02:01:48,064:INFO:[Botv1:log_progress:239] - Progress: 85% - Section: Return and Recommendations Clicked: NextButton
+2025-03-13 02:01:48,064:DEBUG:[Botv1:process_survey:1078] - Processing Prize Draw section
+2025-03-13 02:01:50,168:WARNING:[Botv1:run:1159] - Attempt 1 failed: "Attempt to overwrite 'exc_info' in LogRecord"
+2025-03-13 02:01:50,168:ERROR:[Botv1:run:1164] - Failed to process row 1 after 1 attempts
